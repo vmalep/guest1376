@@ -1,7 +1,6 @@
-name = "Pierre";
-campus = "remote-en";
+const userInfo = {
+    name: "Pierre",
+    campus: "remote-en"
+}
 
-module.exports = {
-    name: name,
-    campus: campus,
-};
+module.exports = userInfo;
